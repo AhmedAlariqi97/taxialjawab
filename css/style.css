@@ -425,17 +425,7 @@ section {
   filter: brightness(67%) contrast(124%) saturate(14%) blur(0px) hue-rotate(0deg);
 } */
 
-.about .container .about-left-shape {
-  background: var(--primary-color);
-  width: 426px;
-  height: 25px;
-    position: absolute;
-    right: 762px;
-    /* top: -10px; */
-    z-index: -5;
-    opacity: .9;
-    bottom: -209px;
-}
+
 
 
 
