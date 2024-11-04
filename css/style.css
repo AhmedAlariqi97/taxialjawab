@@ -617,6 +617,20 @@ section {
    margin: auto;
 }
 
+.services .container .services-box .service-box {
+  margin: 20px 0;
+}
+.services .container .services-box .service-box .c-shadow {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.services .container .services-box .service-box .c-shadow:hover {
+  -webkit-transform: translateY(-7px) !important;
+  transform: translateY(-7px) !important;
+  transition: .4s !important;
+  cursor: pointer;
+}
+
 .services .container .row .icon {
   display: flex;
 }
@@ -624,10 +638,13 @@ section {
   max-width: 80%;
   margin: auto;
 }
-
-.services .container .row .p p {
+.services .container .row .h3 h3 {
   text-align: center;
   font-size: 25px;
+}
+.services .container .row .p p {
+  text-align: center;
+  font-size: 18px;
 }
 
 
