@@ -402,6 +402,9 @@ section {
   .about .container .flex-column-reverse {
     flex-direction: column-reverse;
   }
+  .about .container p {
+    text-align: center;
+  }
   
 }
 
@@ -453,6 +456,9 @@ section {
   .customer-app .container .flex-column-reverse {
     flex-direction: column-reverse;
   }
+  .customer-app .customer-right {
+    text-align: center;
+  }
 }
 
 /* about driver app css */
@@ -499,6 +505,9 @@ section {
   
   .driver-app .driver-left .btn-CA {
     display: grid;
+  }
+  .driver-app .driver-left {
+    text-align: center;
   }
 }
 
