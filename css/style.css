@@ -402,6 +402,96 @@ section {
   
 }
 
+/* about customer app css */
+.customer-app {
+  padding: 20px;
+}
+.customer-app .customer-right {
+  text-align: right;
+}
+.customer-app .customer-right h3.h3 {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 20px 0;
+}
+.customer-app .customer-right p {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+.customer-app .customer-right .btn-CA {
+  margin: 50px 0;
+}
+.customer-app .customer-right .c-play {
+  background-color: var(--primary-color);
+    padding: 10px 15px;
+    margin: 10px 15px;
+    color: var(--white-color);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.customer-app .customer-right .c-apple {
+  background-color: var(--primary-color);
+    padding: 10px 15px;
+    margin: 10px 15px;
+    color: var(--white-color);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* about customer app responsive */
+@media screen and (max-width: 768px) {
+  
+  
+}
+
+/* about driver app css */
+.driver-app {
+  padding: 20px;
+}
+.driver-app .driver-left {
+  text-align: right;
+}
+.driver-app .driver-left h3.h3 {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 20px 0;
+}
+.driver-app .driver-left p {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+.driver-app .driver-left .btn-CA {
+  margin: 50px 0;
+}
+.driver-app .driver-left .c-play {
+  background-color: var(--primary-color);
+    padding: 10px 15px;
+    margin: 10px 15px;
+    color: var(--white-color);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.driver-app .driver-left .c-apple {
+  background-color: var(--primary-color);
+    padding: 10px 15px;
+    margin: 10px 15px;
+    color: var(--white-color);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* about driver app responsive */
+@media screen and (max-width: 768px) {
+  
+  
+}
+
 /* we work section css */
 .weWork .container .weWorkTitle {
   justify-content: center;
