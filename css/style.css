@@ -196,7 +196,7 @@ section {
   border-radius: 15px;
 }
 .menu-list{
-  column-gap: 4rem;
+  column-gap: 2rem;
 }
 .nav-link{
   position: relative;
@@ -361,19 +361,20 @@ section {
 /* about section css */
 .about .container h3 {
   text-align: center;
-  font-size: 54px;
+  font-size: 45px;
 }
 .about .container p {
+  margin-top: 25px;
   text-align: right;
   font-size: 20px;
 }
 .about .container .img {
-  background-image: url(../images/img9.jpg);
+  /* background-image: url(../images/splash.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.88;
-  filter: brightness(67%) contrast(124%) saturate(14%) blur(0px) hue-rotate(0deg);
+  opacity: 0.88; */
+  /* filter: brightness(67%) contrast(124%) saturate(14%) blur(0px) hue-rotate(0deg); */
 }
 
 .about .container .about-left-shape {
