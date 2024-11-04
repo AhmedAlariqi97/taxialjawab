@@ -496,6 +496,12 @@ section {
     text-decoration: none;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
 }
+.driver-app .driver-left .c-play:hover {
+  -webkit-transform: translateY(-7px) !important;
+  transform: translateY(-7px) !important;
+  transition: .4s !important;
+  cursor: pointer;
+}
 .driver-app .driver-left .c-apple {
   background-color: var(--primary-color);
     padding: 10px 15px;
@@ -507,6 +513,13 @@ section {
     text-decoration: none;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
 }
+.driver-app .driver-left .c-apple:hover {
+  -webkit-transform: translateY(-7px) !important;
+  transform: translateY(-7px) !important;
+  transition: .4s !important;
+  cursor: pointer;
+}
+
 
 /* about driver app responsive */
 @media screen and (max-width: 768px) {
