@@ -427,7 +427,17 @@ section {
 
 
 
-
+.about .container .about-left-shape {
+  background: var(--primary-color);
+  width: 426px;
+  height: 25px;
+    position: absolute;
+    right: 762px;
+    /* top: -10px; */
+    z-index: -5;
+    opacity: .9;
+    bottom: -209px;
+}
 
 
 
