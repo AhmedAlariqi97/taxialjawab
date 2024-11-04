@@ -690,6 +690,7 @@ section {
   color: var(--white-color);
   padding: 0 10px;
   margin-bottom: 30px;
+  border-radius: 7px;
 }
 
 .services .container .title-section h3 {
