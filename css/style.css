@@ -399,6 +399,9 @@ section {
     right: 0;
     display: none;
   }
+  .about .container .flex-column-reverse {
+    flex-direction: column-reverse;
+  }
   
 }
 
@@ -444,7 +447,12 @@ section {
 /* about customer app responsive */
 @media screen and (max-width: 768px) {
   
-  
+  .customer-app .customer-right .btn-CA {
+    display: grid;
+  }
+  .customer-app .container .flex-column-reverse {
+    flex-direction: column-reverse;
+  }
 }
 
 /* about driver app css */
@@ -489,7 +497,9 @@ section {
 /* about driver app responsive */
 @media screen and (max-width: 768px) {
   
-  
+  .driver-app .driver-left .btn-CA {
+    display: grid;
+  }
 }
 
 /* we work section css */
