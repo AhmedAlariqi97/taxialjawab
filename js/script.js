@@ -90,11 +90,13 @@ const activePage = window.location.pathname;
 
 sr.reveal(`.content,.about-left,.social-icons,.vision .right,.services-box div:nth-child(1),
   .services-box div:nth-child(3),.weWork .box:nth-child(1),.weWork .box:nth-child(2), .teams-p p:nth-child(1),
-  .driver-app .driver-left,.customer-app .customer-left`, {origin: 'left'})
+  .driver-app .driver-left,.customer-app .customer-left,.c-play`, {origin: 'left'})
   
 sr.reveal(`.about-right,.about-left-shape,.footer .img,.contact-us .form,.vision .left,
   .services-box div:nth-child(2),.weWork .box:nth-child(3), .teams-p p:nth-child(2),
-  .driver-app .driver-right,.customer-app .customer-right`, {origin: 'right'})
+  .driver-app .driver-right,.customer-app .customer-right,.c-apple`, {origin: 'right'})
+
+sr.reveal(`.c-apple,.c-play`, {interval: 150, delay: 450})
 
 
   
