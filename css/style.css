@@ -368,14 +368,14 @@ section {
   text-align: right;
   font-size: 20px;
 }
-.about .container .img {
-  /* background-image: url(../images/splash.png);
+/* .about .container .img {
+  background-image: url(../images/splash.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.88; */
-  /* filter: brightness(67%) contrast(124%) saturate(14%) blur(0px) hue-rotate(0deg); */
-}
+  opacity: 0.88;
+  filter: brightness(67%) contrast(124%) saturate(14%) blur(0px) hue-rotate(0deg);
+} */
 
 .about .container .about-left-shape {
   background: var(--primary-color);
@@ -629,9 +629,9 @@ section {
 
 /* vision and mission section responsive */
 @media screen and (max-width: 768px) {
-  .vision .container .title-section {
+  /* .vision .container .title-section {
     
-  }
+  } */
   
 }
 
@@ -870,7 +870,7 @@ section.teams-img {
 }
 
 .contact-us .submit-btn {
-  float: right;
+  /* float: right; */
   padding: 7px 35px;
   margin: 0 15px;
   border-radius: 7px;
