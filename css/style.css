@@ -592,7 +592,7 @@ section {
   font-weight: bold;
   padding: 20px 0;
 }
-.weWork .container .weWork-box .box:nth-child(odd) {
+/* .weWork .container .weWork-box .box:nth-child(odd) {
   text-align: right;
   color: var(--black-color);
   background-color: var(--secondary-color);
@@ -608,6 +608,14 @@ section {
   font-weight: bold;
   border-radius: 10px;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+} */
+.weWork .container .weWork-box .box:nth-child(odd) {
+  text-align: right;
+  color: var(--black-color);
+  background-color: var(--secondary-color);
+  padding: 60px 40px;
+  font-weight: bold;
+  border-radius: 10px;
 }
 .weWork .container .weWork-box .box.active {
   color: var(--white-color);
