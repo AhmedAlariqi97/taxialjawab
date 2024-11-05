@@ -31,14 +31,15 @@ main{
 --font-semi-bold: 600;
 
 /* Color Variables */
---primary-color: #097B5E;
---secondary-color: #1FA180;
+--primary-color: #8e2c2b;
+--secondary-color: #843938;
 --inpur-bg-color: #dbe1eb;
 --primary-color-hover: ;
---text-color: #097B5E;
+--text-color: #8e2c2b;
 --text-color-light: #888682;
 --border-color: #484848;
 --white-color: #FFF;
+--black-color: #000;
 --section-bg: #2C3034;
 
 /* z-index */
@@ -409,7 +410,7 @@ section {
 /* about section css */
 .about .container h3 {
   text-align: center;
-  font-size: 45px;
+  font-size: 35px;
 }
 .about .container p {
   margin-top: 25px;
@@ -591,12 +592,22 @@ section {
   font-weight: bold;
   padding: 20px 0;
 }
-.weWork .container .box {
+.weWork .container .weWork-box .box:nth-child(odd) {
   text-align: right;
-  color: #000;
+  color: var(--black-color);
   background-color: var(--secondary-color);
   padding: 60px 40px;
   font-weight: bold;
+  border-radius: 10px;
+}
+.weWork .container .weWork-box .box:nth-child(even) {
+  text-align: right;
+  color: var(--primary-color);
+  background-color: var(--white-color);
+  padding: 60px 40px;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
 }
 .weWork .container .box.active {
   color: var(--white-color);
@@ -795,7 +806,7 @@ section.teams-img {
 
 .swiper-button-next, .swiper-button-prev {
   color: var(--white-color);
-  background-color: #1fa18091;
+  background-color: #8e2d2b9a;
   border-radius: 50px;
 }
 .swiper-button-next:after, .swiper-button-prev:after {
