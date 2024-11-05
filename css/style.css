@@ -333,7 +333,8 @@ section {
   color: var(--primary-color);
   margin-top: 120px;
   border-radius: 7px;
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+  /* box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5); */
+  box-shadow: 4px 10px 30px rgb(164 73 73);
 }
 
 .hero .contact-content .contact {
@@ -350,6 +351,7 @@ section {
 }
 .hero .contact-content .contact .phone-number {
   background-color: var(--secondary-color);
+  color: var(--white-color);
   padding: 33px;
   font-size: 25px;
   font-weight: bold;
