@@ -788,11 +788,12 @@ section {
 
 .teams .container .title-section {
   justify-content: space-between;
-  background-color: var(--secondary-color);
-  color: var(--white-color);
+  background-color: var(--white-color);
+  color: var(--primary-color);
   padding: 0 10px;
   margin-bottom: 30px;
   border-radius: 7px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
 }
 
 .teams .container .title-section h3 {
