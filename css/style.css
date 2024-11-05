@@ -801,7 +801,7 @@ section {
   padding: 30px;
 }
 .teams .container .title-section .img {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   display: flex
 }
 .teams .container .title-section .img img {
