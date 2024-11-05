@@ -672,7 +672,7 @@ section {
   padding: 30px;
 }
 .vision .container .title-section .img {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   display: flex
 }
 .vision .container .title-section .img img {
