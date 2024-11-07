@@ -479,11 +479,12 @@ section {
 }
 .customer-app .customer-right .btn-CA {
   margin: 50px 0;
+  display: flex;
 }
 .customer-app .customer-right .c-play {
-  background-color: var(--primary-color);
-    padding: 10px 15px;
-    margin: 10px 15px;
+  /* background-color: var(--primary-color); */
+    /* padding: 10px 15px; */
+    margin: 16px 15px;
     color: var(--white-color);
     font-size: 18px;
     font-weight: bold;
@@ -492,9 +493,9 @@ section {
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
 }
 .customer-app .customer-right .c-apple {
-  background-color: var(--primary-color);
-    padding: 10px 15px;
-    margin: 10px 15px;
+  /* background-color: var(--primary-color); */
+    /* padding: 10px 15px; */
+    margin: 16px 15px;
     color: var(--white-color);
     font-size: 18px;
     font-weight: bold;
@@ -536,11 +537,12 @@ section {
 }
 .driver-app .driver-left .btn-CA {
   margin: 50px 0;
+  display: flex;
 }
 .driver-app .driver-left .c-play {
-  background-color: var(--primary-color);
-    padding: 10px 15px;
-    margin: 10px 15px;
+  /* background-color: var(--primary-color); */
+    /* padding: 10px 15px; */
+    margin: 16px 15px;
     color: var(--white-color);
     font-size: 18px;
     font-weight: bold;
@@ -555,9 +557,9 @@ section {
   cursor: pointer;
 }
 .driver-app .driver-left .c-apple {
-  background-color: var(--primary-color);
-    padding: 10px 15px;
-    margin: 10px 15px;
+  /* background-color: var(--primary-color); */
+    /* padding: 10px 15px; */
+    margin: 16px 15px;
     color: var(--white-color);
     font-size: 18px;
     font-weight: bold;
