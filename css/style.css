@@ -618,7 +618,7 @@ section {
 .weWork .container .weWork-box .box,
 .weWork .container .weWork-box .box3 {
   text-align: right;
-  color: var(--black-color);
+  color: var(--white-color);
   background-color: var(--secondary-color);
   padding: 60px 40px;
   font-weight: bold;
