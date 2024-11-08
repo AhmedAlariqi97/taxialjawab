@@ -810,7 +810,7 @@ section {
   display: flex
 }
 .teams .container .title-section .img img {
-   max-width: 35%;
+   max-width: 70%;
    margin: auto;
 }
 section.teams-img {
@@ -878,7 +878,7 @@ section.teams-img {
   display: flex
 }
 .contact-us .container .title-section .img img {
-   max-width: 35%;
+   max-width: 70%;
    margin: auto;
 }
 
