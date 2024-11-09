@@ -313,7 +313,7 @@ section {
   background-color: #15142A96;
 }
 .hero .background {
-  background: rgba(0, 0, 0, 0.28) url(../images/heroImage.png);
+  background: rgba(0, 0, 0, 0.28) url(../images/heroImage2.png);
   background-size: cover;
   background-attachment: fixed;
   background-blend-mode: darken;
@@ -321,7 +321,7 @@ section {
   padding-bottom: 50px;
 }
 .hero .content {
-  padding-top: 50px;
+  padding: 100px 0 50px 0;
 }
 .hero .content h1 {
   font-size: 60px;
