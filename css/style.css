@@ -171,7 +171,7 @@ section {
   width: 20%;
 }
 .logo-img {
-  max-width: 65%;
+  max-width: 90%;
 }
 
 .nav-link {
@@ -244,6 +244,9 @@ section {
 
 /* nav responsive */
 @media screen and (max-width: 768px) {
+  .logo-content {
+    width: 40%;
+  }
   .logo-img {
     max-width: 100%;
   }
