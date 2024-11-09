@@ -313,7 +313,7 @@ section {
   background-color: #15142A96;
 }
 .hero .background {
-  background: rgba(0, 0, 0, 0.28) url(../images/heroImage2.png);
+  background: rgba(0, 0, 0, 0.48) url(../images/heroImage2.png);
   background-size: cover;
   background-attachment: fixed;
   background-blend-mode: darken;
