@@ -895,7 +895,7 @@ section {
   display: flex
 }
 .teams .container .title-section .img img {
-   max-width: 70%;
+   max-width: 90%;
    margin: auto;
 }
 section.teams-img {
