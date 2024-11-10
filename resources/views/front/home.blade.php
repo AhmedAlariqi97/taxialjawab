@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="lang-icon">
+{{--<div class="lang-icon">
 @foreach (LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
     @if (LaravelLocalization::getCurrentLocale() != $localeCode && $localeCode == 'en')
     <a hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
@@ -55,7 +55,7 @@
     @endif
 @endforeach
 
-</div>
+</div>--}}
 
 
 

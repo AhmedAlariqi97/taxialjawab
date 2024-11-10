@@ -256,7 +256,7 @@ section {
   .navClose-btn,
   .navOpen-btn,
   .media-icons{
-  display: block;
+  display: block !important;
 }
   .nav .menu-content{
     position: fixed;
