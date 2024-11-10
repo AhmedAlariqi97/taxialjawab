@@ -71,6 +71,18 @@
     <script defer src="{{ asset('front/js/bootstrap.min.js') }}"></script>
 
 
+    <!-- Swiper JS -->
+<script src="{{ asset('js/swiper-bundle.min.js')}}"></script>
+<script src="{{ asset('js/all.min.js')}}"></script>
+
+<!-- Scroll Reveal -->
+<script src="{{ asset('js/scrollreveal.js')}}"></script>
+
+
+<!-- JavaScript -->
+    <script src="{{ asset('js/script.js')}}"></script>
+
+
 
     @yield('page-scripts')
 
