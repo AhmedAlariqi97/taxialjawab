@@ -1,0 +1,365 @@
+
+:root { 
+  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
+  --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #012970; /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #4154f1; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+}
+
+:root {
+  --nav-color: #012970;  /* The default color of the main navmenu links */
+  --nav-hover-color: #4154f1; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
+  --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-dropdown-color: #212529; /* Used for navigation links of the dropdown items in the navigation menu. */
+  --nav-dropdown-hover-color: #4154f1; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+}
+
+  body[data-font=opensans],body[data-font=opensans]
+  button,body[data-font=opensans]
+  h1,body[data-font=opensans] h2,body[data-font=opensans]
+  h3,body[data-font=opensans] h4,body[data-font=opensans]
+  h5,body[data-font=opensans] h6,body[data-font=opensans]
+  input,body[data-font=opensans] textarea{font-family:'Almarai'}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+/* background: radial-gradient(circle, #110d0a 24%, #FBAF02 52%); */
+
+
+
+
+
+
+  /* buttons of themeicons coler */
+
+  .button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .button .bloom-container {
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    border: none;
+    background: none;
+  }
+
+  .button .bloom-container .button-container-main {
+    width: 55px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    display: grid;
+    place-content: center;
+    border-right: 3px solid white;
+    border-left: 5px solid rgba(128, 128, 128, 0.147);
+    transform: rotate(0deg);
+    transition: all 0.5s ease-in-out;
+  }
+
+  .button .bloom-container .button-container-main .button-inner {
+    height: 42px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: rgba(100, 100, 111, 0.5) -10px 5px 10px 0px;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .button.themethree .bloom-container .button-container-main .button-inner .back {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background: rgb(184, 80, 66);
+  }
+  .button.themetwo .bloom-container .button-container-main .button-inner .back {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background: rgb(0, 0, 139);
+  }
+  .button.themeone .bloom-container .button-container-main .button-inner .back {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background: rgb(79, 138, 16);
+  }
+
+  .button.themethree .bloom-container .button-container-main .button-inner .front {
+    position: absolute;
+    inset: 5px;
+    border-radius: 50%;
+    background: rgb(254, 239, 179);
+    display: grid;
+    place-content: center;
+  }
+  .button.themetwo .bloom-container .button-container-main .button-inner .front {
+    position: absolute;
+    inset: 5px;
+    border-radius: 50%;
+    background: rgb(173, 216, 230);
+    display: grid;
+    place-content: center;
+  }
+  .button.themeone .bloom-container .button-container-main .button-inner .front {
+    position: absolute;
+    inset: 5px;
+    border-radius: 50%;
+    background: rgb(231, 232, 209);
+    display: grid;
+    place-content: center;
+  }
+
+  .button .bloom-container .button-container-main .button-glass {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.888) 100%);
+    transform: translate(0%, -50%) rotate(0deg);
+    transform-origin: bottom center;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .button .bloom-container .bloom {
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    background: white;
+  }
+
+  .button .bloom-container .bloom1 {
+    top: 10px;
+    right: 20px;
+    /* box-shadow: rgb(255, 255, 255) 0px 0px 10px 10px, rgb(255, 255, 255) 0px 0px 20px 20px; */
+  }
+
+  .button .bloom-container .bloom2 {
+    bottom: 10px;
+    left: 20px;
+    box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 10px 10px, rgba(255, 255, 255, 0.5) 0px 0px 30px 20px;
+  }
+
+  .button .bloom-container:hover {
+    transform: scale(1.1);
+  }
+
+  .button .bloom-container:hover .button-container-main .button-glass {
+    transform: translate(0%, -40%);
+  }
+
+  .button .bloom-container:active {
+    transform: scale(0.7);
+  }
+
+  .button .bloom-container:active .button-container-main .button-inner {
+    transform: scale(1.2);
+  }
+
+/* media css */
+@media (min-width:767px){
+    .landing {
+        max-height: 700px;
+        padding: 0;
+        overflow: hidden;
+    }
+    .landing .cover-img {
+        width: 100%;
+        max-height: 700px;
+    }
+
+    .main-button {
+        margin-top: -100px;
+    }
+    .main-button .button-sec {
+        display: flex;
+        justify-content: center;
+    }
+    .social-media {
+        /* margin-top: 28px; */
+        background-color: var(--primary-backgrooud);
+    }
+
+    .modal-dialog {
+        /* max-width: var(--bs-modal-width); */
+        max-width: 770px;
+    }
+    .modal-body .branch-box {
+        display: flex;
+    }
+    .social-media .links .social-link i {
+        font-size: 21px;
+    }
+  }
+@media (max-width:767px){
+    .landing {
+        max-height: 900px;
+        padding: 0;
+        overflow: hidden;
+    }
+    .landing .cover-img {
+        width: 100%;
+        max-height: 900px;
+    }
+
+    .main-button {
+        margin-top: -2px;
+        background-color: var(--primary-backgrooud);
+    }
+    .main-button .button-sec {
+        display: block;
+    }
+    .main-button .button-sec .one,
+    .main-button .button-sec .tow {
+        margin: 10px 35px;
+    }
+    .social-media {
+        margin-top: -2px;
+        background-color: var(--primary-backgrooud);
+    }
+    .modal-body {
+        display: flex;
+        justify-content: center;
+    }
+    .modal-body .branch-box {
+        display: block;
+    }
+    .modal-body .branch-info {
+        font-size: 18px !important;
+        padding: 12px !important;
+    }
+    .social-media .links .social-link i {
+        position: relative;
+        top: 5px;
+        font-size: 35px;
+    }
+    .social-media .links .social-link {
+        margin: 8px !important;
+        padding: 12px 12px !important;
+    }
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  padding: 80px 0 60px 0;
+  display: flex;
+  align-items: center;
+  background: url(../images/hero-bg.png) top center no-repeat;
+  background-size: cover;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.hero p {
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  margin: 5px 0 30px 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.hero .btn-get-started {
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  font-family: var(--heading-font);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 40px;
+  border-radius: 4px;
+  transition: 0.5s;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+}
+
+.hero .btn-get-started i {
+  margin-left: 5px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.hero .btn-get-started:hover {
+  color: var(--contrast-color);
+  background: color-mix(in srgb, var(--accent-color), transparent 15%);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
+}
+
+.hero .btn-get-started:hover i {
+  transform: translateX(5px);
+}
+
+.hero .btn-watch-video {
+  font-size: 16px;
+  transition: 0.5s;
+  color: var(--default-color);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.hero .btn-watch-video i {
+  color: var(--accent-color);
+  font-size: 32px;
+  transition: 0.3s;
+  line-height: 0;
+  margin-right: 8px;
+}
+
+.hero .btn-watch-video:hover {
+  color: var(--accent-color);
+}
+
+.hero .btn-watch-video:hover i {
+  color: color-mix(in srgb, var(--accent-color), transparent 15%);
+}
+
+.hero .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@media (max-width: 640px) {
+  .hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .hero p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+
+
+
+
+
+
