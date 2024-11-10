@@ -26,6 +26,9 @@
             onload="if(media!='all')media='all'">
     <link href="{{ asset('front/css/animate.min.css') }}" rel="stylesheet" onload="if(media!='all')media='all'">
 
+    <!-- Scroll Reveal -->
+    <link rel="stylesheet" href="css/scrollreveal.min.css">
+
     <link rel="stylesheet" href="{{ asset('front/css/custom.css') }}">
 
     <link rel="stylesheet" href="{{ asset('front/css/bootstrap-icons/bootstrap-icons.css') }}">
