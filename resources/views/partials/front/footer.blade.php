@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 img">
-                <img src="images/footerLogo.png" class="" alt="" />
+                <img src="{{ asset('front/images/footerLogo.png')}}" class="" alt="" />
 
             </div>
             <div class="col-12 social-icons">

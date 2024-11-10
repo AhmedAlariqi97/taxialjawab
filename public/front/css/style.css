@@ -239,7 +239,7 @@ section {
 .navClose-btn,
 .navOpen-btn,
 .media-icons{
-  display: none;
+  display: none !important;
 }
 
 /* nav responsive */
