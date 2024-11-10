@@ -2,7 +2,7 @@
     <header class="header">
                 <nav class="nav container flex">
                     <a href="#" class="logo-content flex">
-                        <img src="images/headerLogo.png" class="logo-img" alt="Taxi" />
+                        <img src="{{ asset('front/images/headerLogo.png')}}" class="logo-img" alt="Taxi" />
                     </a>
 
                     <div class="menu-content">
