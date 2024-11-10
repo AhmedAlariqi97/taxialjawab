@@ -107,7 +107,7 @@
     
                     <div class="col-md-12 col-lg-6 img about-left">
                         <div class="img" data-aos="zoom-out">
-                            <img src="{{ asset('front'images/splash.png')}}" class="" alt="" />
+                            <img src="{{ asset('front/images/splash.png')}}" class="" alt="" />
                         </div> 
 
                        
