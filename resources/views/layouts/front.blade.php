@@ -19,7 +19,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
 
     <!-- Swiper JS CSS-->
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="{{ asset('front/css/swiper-bundle.min.css')}}">
 
     <!-- CSS Styles -->
     <link href="{{ asset('front/css/bootstrap.min.css') }}" rel="stylesheet" class="ltr"
@@ -27,7 +27,7 @@
     <link href="{{ asset('front/css/animate.min.css') }}" rel="stylesheet" onload="if(media!='all')media='all'">
 
     <!-- Scroll Reveal -->
-    <link rel="stylesheet" href="css/scrollreveal.min.css">
+    <link rel="stylesheet" href="{{ asset('front/css/scrollreveal.min.css')}}">
 
     <link rel="stylesheet" href="{{ asset('front/css/style.css') }}">
 
@@ -72,15 +72,15 @@
 
 
     <!-- Swiper JS -->
-<script src="{{ asset('js/swiper-bundle.min.js')}}"></script>
-<script src="{{ asset('js/all.min.js')}}"></script>
+<script src="{{ asset('front/js/swiper-bundle.min.js')}}"></script>
+<script src="{{ asset('front/js/all.min.js')}}"></script>
 
 <!-- Scroll Reveal -->
-<script src="{{ asset('js/scrollreveal.js')}}"></script>
+<script src="{{ asset('front/js/scrollreveal.js')}}"></script>
 
 
 <!-- JavaScript -->
-    <script src="{{ asset('js/script.js')}}"></script>
+    <script src="{{ asset('front/js/script.js')}}"></script>
 
 
 
