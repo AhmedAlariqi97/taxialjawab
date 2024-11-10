@@ -405,7 +405,7 @@
                 <h3>اسطولنا وفريقنا</h3>
             </div>
             <div class="col-lg-4 col-md-12 img">
-                <img src="images/logoWhite.png" class="" alt="" />
+                <img src="{{ asset('front/images/logoWhite.png')}}" class="" alt="" />
             </div>
         </div>
     </div>
@@ -482,7 +482,7 @@
                 <h3>تواصل معنا</h3>
             </div>
             <div class="col-lg-4 col-md-12 img">
-                <img src="images/logoWhite.png" class="" alt="" />
+                <img src="{{ asset('front/images/logoWhite.png')}}" class="" alt="" />
             </div>
         </div>
         <div class="row">
