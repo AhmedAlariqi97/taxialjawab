@@ -18,8 +18,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
 
-    <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- Swiper JS CSS-->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
 
     <!-- CSS Styles -->
     <link href="{{ asset('front/css/bootstrap.min.css') }}" rel="stylesheet" class="ltr"
