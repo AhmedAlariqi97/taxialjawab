@@ -136,10 +136,10 @@
                 </p>
                 <div class="btn-CA">
                     <a href="" class="c-play">
-                        <img src="images/logoGooglePlay.png" class="" alt="" />
+                        <img src="{{ asset('front/images/logoGooglePlay.png')}}" class="" alt="" />
                     </a>
                     <a href="" class="c-apple">
-                        <img src="images/logoAppStore.png" class="" alt="" />
+                        <img src="{{ asset('front/images/logoAppStore.png')}}" class="" alt="" />
                     </a>
 
                 </div>
@@ -147,7 +147,7 @@
 
             <div class="col-md-12 col-lg-6 img customer-left">
                 <div class="img">
-                    <img src="images/aljawab-customer-app.png" class="" alt="" />
+                    <img src="{{ asset('front/images/aljawab-customer-app.png')}}" class="" alt="" />
                 </div> 
 
                
@@ -166,7 +166,7 @@
         <div class="row">
             <div class="col-md-12 col-lg-6 img driver-right">
                 <div class="img">
-                    <img src="images/aljawab-driver-app.png" class="" alt="" />
+                    <img src="{{ asset('front/images/aljawab-driver-app.png')}}" class="" alt="" />
                 </div> 
 
                
@@ -183,10 +183,10 @@
                 </p>
                 <div class="btn-CA">
                     <a href="" class="c-play">
-                        <img src="images/logoGooglePlay.png" class="" alt="" />
+                        <img src="{{ asset('front/images/logoGooglePlay.png')}}" class="" alt="" />
                     </a>
                     <a href="" class="c-apple">
-                        <img src="images/logoAppStore.png" class="" alt="" />
+                        <img src="{{ asset('front/images/logoAppStore.png')}}" class="" alt="" />
                     </a>
 
                 </div>
@@ -259,7 +259,7 @@
                 <h3>الرؤية والرسالة</h3>
             </div>
             <div class="col-lg-4 col-md-12 img">
-                <img src="images/logoWhite.png" class="" alt="" />
+                <img src="{{ asset('front/images/logoWhite.png')}}" class="" alt="" />
             </div>
         </div>
         <div class="row">
