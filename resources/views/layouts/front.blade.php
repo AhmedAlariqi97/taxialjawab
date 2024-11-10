@@ -48,7 +48,7 @@
 </head>
 @yield('style')
 
-<body class="home">
+<body class="body">
 
     {{-- the main header --}}
     @include('partials.front.header')
@@ -72,14 +72,14 @@
 
 
     <!-- Swiper JS -->
-<script src="{{ asset('front/js/swiper-bundle.min.js')}}"></script>
-<script src="{{ asset('front/js/all.min.js')}}"></script>
+    <script src="{{ asset('front/js/swiper-bundle.min.js')}}"></script>
+    <script src="{{ asset('front/js/all.min.js')}}"></script>
 
-<!-- Scroll Reveal -->
-<script src="{{ asset('front/js/scrollreveal.js')}}"></script>
+    <!-- Scroll Reveal -->
+    <script src="{{ asset('front/js/scrollreveal.js')}}"></script>
 
 
-<!-- JavaScript -->
+    <!-- JavaScript -->
     <script src="{{ asset('front/js/script.js')}}"></script>
 
 

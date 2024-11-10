@@ -1,6 +1,6 @@
 <!-- Header -->
-<header class="header">
-            <nav class="nav container flex">
+    <header class="header">
+                <nav class="nav container flex">
                     <a href="#" class="logo-content flex">
                         <img src="images/headerLogo.png" class="logo-img" alt="Taxi" />
                     </a>
@@ -22,7 +22,7 @@
                             </div>
 
                             <i class='bx bx-x navClose-btn'></i>
-                        </div>
+                    </div>
                         
                         <div class="contact-content flex">
                             <i class='bx bx-phone phone-icon' ></i>
