@@ -299,14 +299,14 @@
                 <h3>الخدمات</h3>
             </div>
             <div class="col-lg-4 col-md-12 img">
-                <img src="images/logoWhite.png" class="" alt="" />
+                <img src="{{ asset('front/images/logoWhite.png')}}" class="" alt="" />
             </div>
         </div>
         <div class="row services-box">
             <div class="col-md-12 col-lg-4 service-box">
                 <div class="c-shadow">
                     <div class="icon">
-                        <img src="images/airport.png" class=" img" alt="" />
+                        <img src="{{ asset('front/images/airport.png')}}" class=" img" alt="" />
                     </div>
                     <div class="h3">
                         <h3>
@@ -323,7 +323,7 @@
             <div class="col-md-12 col-lg-4 service-box">
                 <div class="c-shadow">
                     <div class="icon">
-                        <img src="images/school.png" class="img" alt="" />
+                        <img src="{{ asset('front/images/school.png')}}" class="img" alt="" />
                     </div>
                     <div class="h3">
                         <h3>
@@ -340,7 +340,7 @@
             <div class="col-md-12 col-lg-4 service-box">
                 <div class="c-shadow">
                     <div class="icon">
-                        <img src="images/car.png" class="img" alt="" />
+                        <img src="{{ asset('front/images/car.png')}}" class="img" alt="" />
                     </div>
                     <div class="h3">
                         <h3>
@@ -357,7 +357,7 @@
             <div class="col-md-12 col-lg-4 service-box">
                 <div class="c-shadow">
                     <div class="icon">
-                        <img src="images/train.png" class="img" alt="" />
+                        <img src="{{ asset('front/images/train.png')}}" class="img" alt="" />
                     </div>
                     <div class="h3">
                         <h3>
