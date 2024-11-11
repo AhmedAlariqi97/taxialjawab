@@ -77,9 +77,9 @@ body{
   overflow-x: hidden;
   background-color: var(--white-color);
 }
-.body {
+/* .body {
   height: 500vh !important;
-}
+} */
 
 /* Custom Scrollbar */
 ::selection{
