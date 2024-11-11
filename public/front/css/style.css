@@ -196,7 +196,7 @@ section {
 .header-active .contact-content{
   background-color: var(--primary-color);
   color: var(--white-color) !important;
-  padding: 15px 25px;
+  padding: 10px 20px;
   border-radius: 15px;
 }
 .menu-list{
