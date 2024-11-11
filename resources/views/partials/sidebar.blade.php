@@ -25,12 +25,12 @@
             {{-- Dashboard --}}
 
 
-            {{--<li class="menu-item {{ isActiveRoute(['SEOManagement.index']) }}   ">
+            <li class="menu-item {{ isActiveRoute(['SEOManagement.index']) }}   ">
                 <a href="  {{ route('SEOManagement.index') }}" class="menu-link ">
                     <i class='menu-icon tf-icons bx bxs-pen'></i>
                     <div data-i18n="Seo">{{ __('sidebar.seo') }}</div>
                 </a>
-            </li>--}}
+            </li>
             <li class="menu-item {{ isActiveRoute(['content.index']) }}   ">
                 <a href="  {{ route('content.index') }}" class="menu-link ">
                     <i class='menu-icon tf-icons bx bx-text'></i>
