@@ -67,8 +67,8 @@
         <div class="container">
             <div class="">
                 <div class="content">
-                    <h1>شركة الجواب</h1>
-                    <h1>للنقل البري</h1>
+                    <h1>{{ html_entity_decode(strip_tags($content['heroTitle_2'][0]['value'] ?? '')) }}</h1>
+                    <h1>{{ html_entity_decode(strip_tags($content['home_heroSection_lork'][0]['value'] ?? '')) }}</h1>
                 </div>
 
                 <div class="contact-content">
