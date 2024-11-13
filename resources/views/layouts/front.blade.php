@@ -32,6 +32,7 @@
     <link rel="stylesheet" href="{{ asset('front/css/style.css') }}">
 
     <link rel="stylesheet" href="{{ asset('front/css/bootstrap-icons/bootstrap-icons.css') }}">
+    
     <link rel="stylesheet" href="{{ asset('front/css/glightbox/css/glightbox.min.css') }}">
     <!-- Boxicons -->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
