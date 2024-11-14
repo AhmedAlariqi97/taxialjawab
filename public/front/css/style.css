@@ -223,6 +223,12 @@ section {
   background-color: var(--white-color);
   opacity: 0;
 }
+.nav .menu-content {
+  display: flex;
+}
+.nav .menu-content .mobile-language .language {
+  padding: 0 10px;
+}
 
 .active-navlink::before{
   opacity: 1;

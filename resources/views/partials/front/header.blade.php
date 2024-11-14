@@ -11,8 +11,29 @@
                                     <li><a href="#" class="nav-link">الأحكام والشروط</a></li>
                                     <li><a href="#" class="nav-link">سياسة العملاء</a></li>
                                     <li><a href="#" class="nav-link">سياسة السائقين</a></li>
-                                    <li><a href="#" class="nav-link">English</a></li>
+                                   
                             </ul>
+                            <div class="mobile-language d-flex">
+                                <div class="language">
+                                    @foreach (LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+                                        @if (LaravelLocalization::getCurrentLocale() != $localeCode && $localeCode == 'en')
+                                        <a hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
+                                        English
+                                        </a>
+                                        @elseif (LaravelLocalization::getCurrentLocale() != $localeCode && $localeCode == 'ar')
+                                        <a hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
+                                            Arabic
+                                        </a>
+                                        @endif
+                                    @endforeach
+                                </div>
+                                <!-- <div class="contact-btn">
+                                    <a href="" class="">
+                                        <span>تواصل معنا</span>
+                                    </a>
+
+                                </div> -->
+                            </div>
 
                             <div class="media-icons flex">
                                     <a href="https://www.facebook.com"><i class='bx bxl-facebook'></i></a>
