@@ -2,65 +2,6 @@
 
 @section('content')
 
-{{--<div class="lang-icon">
-@foreach (LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
-    @if (LaravelLocalization::getCurrentLocale() != $localeCode && $localeCode == 'en')
-    <a hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
-        <button class="button themethree">
-            <div class="bloom-container">
-                <div class="button-container-main">
-                <div class="button-inner">
-                    <div class="back"></div>
-                    <div class="front">
-
-                         <img src="{{asset('front\images\en.png')}}" class="" width="26">
-
-                    </div>
-                </div>
-                <div class="button-glass">
-                    <div class="back"></div>
-                    <div class="front">
-
-                    </div>
-                </div>
-                </div>
-                <div class="bloom bloom1"></div>
-                <div class="bloom bloom2"></div>
-            </div>
-        </button>
-        </a>
-    @elseif (LaravelLocalization::getCurrentLocale() != $localeCode && $localeCode == 'ar')
-    <a hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
-    <button class="button themethree">
-        <div class="bloom-container">
-            <div class="button-container-main">
-            <div class="button-inner">
-                <div class="back"></div>
-                <div class="front">
-                   <img src="{{asset('front\images\sa.png')}}" class="" width="26">
-                </div>
-            </div>
-            <div class="button-glass">
-                <div class="back"></div>
-                <div class="front">
-
-                </div>
-            </div>
-            </div>
-            <div class="bloom bloom1"></div>
-            <div class="bloom bloom2"></div>
-        </div>
-    </button>
-    </a>
-    @endif
-@endforeach
-
-</div>--}}
-
-
-
-
-
 <!-- start hero section -->
 <section class="hero">
     <div class="background">
@@ -73,10 +14,12 @@
 
                 <div class="contact-content">
                     <div class="flex contact">
-                        <div class="text">نسعد باستقبال مكالماتكم على الرقم الموحد لخدمة العملاء</div>
+                        <div class="text">
+                        {{ html_entity_decode(strip_tags($content['hero_titleContact'][0]['value'] ?? '')) }}
+                        </div>
                         <div class="phone-number">
                             <span>
-                                99999999
+                            {{ html_entity_decode(strip_tags($content['hero_Number'][0]['value'] ?? '')) }}
                             </span>
                         </div>
                     </div> 
@@ -98,10 +41,10 @@
                 <div class="row flex-column-reverse">
                     <div class="col-md-12 col-lg-6 about-right">
                         <h3>
-                            طريقة موثوقة وآمنة للوصول إلى أي نقطة في المدينة وخارج المدينة
+                        {{ html_entity_decode(strip_tags($content['aboutUS_title'][0]['value'] ?? '')) }}
                         </h3>
                         <p>
-                            نحن نقدم طريقة سريعة وبأسعار معقولة للعثور على سيارة أجرة متى وأينما كنت في حاجة إليها.
+                        {{ html_entity_decode(strip_tags($content['hero_Number'][0]['value'] ?? '')) }}
                         </p>
                     </div>
     

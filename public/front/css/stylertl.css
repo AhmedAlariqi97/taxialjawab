@@ -3,6 +3,10 @@
     /* font-family: 'Open Sans' !important; */
   }
 
+.hero .content {
+  text-align: right;
+}
+
 .lang-icon {
     width: fit-content;
     position: absolute;
