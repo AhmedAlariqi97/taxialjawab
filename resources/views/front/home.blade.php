@@ -44,7 +44,7 @@
                         {{ html_entity_decode(strip_tags($content['aboutUS_title'][0]['value'] ?? '')) }}
                         </h3>
                         <p>
-                        {{ html_entity_decode(strip_tags($content['hero_Number'][0]['value'] ?? '')) }}
+                        {{ html_entity_decode(strip_tags($content['aboutUs_Paragraph'][0]['value'] ?? '')) }}
                         </p>
                     </div>
     
