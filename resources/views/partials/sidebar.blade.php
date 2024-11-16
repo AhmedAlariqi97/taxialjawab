@@ -4,7 +4,7 @@
     <a href="{{ route('front.home') }}">
         <div class="app-brand demo text-center">
 
-            <img src="{{ asset('front/images/footerLogo.png') }}" alt="logo">
+            <img src="{{ asset('front/images/logoWhite.png') }}" style="height: 75px" alt="logo">
 
 
         </div>
