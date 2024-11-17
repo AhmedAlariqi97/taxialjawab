@@ -26,8 +26,7 @@
             onload="if(media!='all')media='all'">
     <link href="{{ asset('front/css/animate.min.css') }}" rel="stylesheet" onload="if(media!='all')media='all'">
 
-    <!-- Scroll Reveal -->
-    <link rel="stylesheet" href="{{ asset('front/css/scrollreveal.min.css')}}">
+    
 
     <link rel="stylesheet" href="{{ asset('front/css/style.css') }}">
 
@@ -66,8 +65,7 @@
     @include('partials.errors')
 
 
-     <!-- Javascript -->
-     <script src="{{ asset('front/js/custom.js') }}"></script>
+     
     <!-- add by ahmed -->
     <script src="https://kit.fontawesome.com/d88c51d2e9.js" crossorigin="anonymous"></script>
     <script defer src="{{ asset('front/js/bootstrap.min.js') }}"></script>
@@ -77,8 +75,7 @@
     <script src="{{ asset('front/js/swiper-bundle.min.js')}}"></script>
     <script src="{{ asset('front/js/all.min.js')}}"></script>
 
-    <!-- Scroll Reveal -->
-    <script src="{{ asset('front/js/scrollreveal.js')}}"></script>
+   
 
 
     <!-- JavaScript -->
