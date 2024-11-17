@@ -75,7 +75,8 @@
     <script src="{{ asset('front/js/swiper-bundle.min.js')}}"></script>
     <script src="{{ asset('front/js/all.min.js')}}"></script>
 
-   
+   <!-- scroll reveal -->
+    <script src="{{ asset('front/js/scrollreveal.js')}}"></script>
 
 
     <!-- JavaScript -->
