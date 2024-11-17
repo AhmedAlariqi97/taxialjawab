@@ -906,7 +906,7 @@ section {
 }
 section.teams-img {
   height: 110vh;
-  background: rgba(0, 0, 0, 0.28) url(../images/teams.jpg);
+  background: rgba(0, 0, 0, 0.28) url();
   background-position: center;
   background-blend-mode: darken;
   background-attachment: fixed;
