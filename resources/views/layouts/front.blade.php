@@ -22,9 +22,9 @@
     <link rel="stylesheet" href="{{ asset('front/css/swiper-bundle.min.css')}}">
 
     <!-- CSS Styles -->
-    <link href="{{ asset('front/css/bootstrap.min.css') }}" rel="stylesheet" class="ltr"
+    <!-- <link href="{{ asset('front/css/bootstrap.min.css') }}" rel="stylesheet" class="ltr"
             onload="if(media!='all')media='all'">
-    <link href="{{ asset('front/css/animate.min.css') }}" rel="stylesheet" onload="if(media!='all')media='all'">
+    <link href="{{ asset('front/css/animate.min.css') }}" rel="stylesheet" onload="if(media!='all')media='all'"> -->
 
     
 
@@ -68,7 +68,7 @@
      
     <!-- add by ahmed -->
     <script src="https://kit.fontawesome.com/d88c51d2e9.js" crossorigin="anonymous"></script>
-    <script defer src="{{ asset('front/js/bootstrap.min.js') }}"></script>
+    <!-- <script src="{{ asset('front/js/bootstrap.min.js') }}"></script> -->
 
 
     <!-- Swiper JS -->
